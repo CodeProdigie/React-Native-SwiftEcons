@@ -1,50 +1,97 @@
-# Welcome to your Expo app 👋
+# SwiftEcons
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+SwiftEcons is a React Native application designed to provide economics past papers and study tools for students. It utilizes a Node.js backend with Express.js and MongoDB to manage user authentication and data.
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+*   **User Authentication:** Secure user registration and login functionality.
+*   **Past Papers:** Access a collection of economics past papers from various years.
+*   **PDF Viewer:** Integrated PDF viewer for seamless access to past paper content.
+*   **Secrets Management:** Allows users to store and manage sensitive information securely.
+*   **Dark Mode:** User-friendly dark mode for comfortable viewing in low-light conditions.
+*   **Feedback & Support:** In-app feedback form and support resources.
 
-2. Start the app
+## Screenshots
 
-   ```bash
-   npx expo start
-   ```
+[**Placeholder for Screenshot 1: Main Screen**]
+[**Placeholder for Screenshot 2: Past Papers List**]
+[**Placeholder for Screenshot 3: PDF Viewer**]
+[**Placeholder for Screenshot 4: Login/Registration**]
 
-In the output, you'll find options to open the app in a
+## Technologies Used
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+*   **Frontend:**
+    *   React Native
+    *   Expo
+    *   NativeWind (Tailwind CSS)
+    *   Expo Router
+*   **Backend:**
+    *   Node.js
+    *   Express.js
+    *   MongoDB
+    *   Mongoose
+*   **Other:**
+    *   dotenv
+    *   cors
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Installation
 
-## Get a fresh project
+1.  **Clone the repository:**
 
-When you're ready, run:
+    ```bash
+    git clone [repository URL]
+    cd SwiftEcons
+    ```
 
-```bash
-npm run reset-project
-```
+2.  **Install dependencies:**
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+    ```bash
+    npm install
+    cd backend
+    npm install
+    cd ..
+    ```
 
-## Learn more
+3.  **Configure environment variables:**
 
-To learn more about developing your project with Expo, look at the following resources:
+    *   Create a `.env` file in the `backend` directory.
+    *   Add the following environment variables:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+        ```
+        MONGO_URI=[Your MongoDB Connection String]
+        PORT=[Desired Port Number, e.g., 5000]
+        ```
 
-## Join the community
+4.  **Run the backend server:**
 
-Join our community of developers creating universal apps.
+    ```bash
+    cd backend
+    npm run start
+    ```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+5.  **Run the React Native app:**
+
+    ```bash
+    npm run start
+    ```
+
+    This will start the Expo development server. You can then run the app on your iOS or Android device using the Expo Go app, or by using an emulator.
+
+## Usage
+
+1.  **Register/Login:** Create an account or log in to access the app's features.
+2.  **Browse Past Papers:** Navigate to the "Past Papers" section to view papers by year.
+3.  **View PDFs:** Select a paper to view it in the integrated PDF viewer.
+4.  **Manage Secrets:** Use the "Secrets" feature to store and manage sensitive information securely.
+5.  **Customize Appearance:** Toggle dark mode in the settings for a comfortable viewing experience.
+6.  **Provide Feedback:** Use the feedback form to submit suggestions or report issues.
+
+## Contributing
+
+[**If you want to encourage contributions, add guidelines here.**]
+
+## License
+
+[**Add license information here.**]
