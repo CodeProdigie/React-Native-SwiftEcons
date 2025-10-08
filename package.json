@@ -10,7 +10,7 @@
     "ios": "expo run:ios",
     "web": "expo start --web",
     "lint": "expo lint",
-    "server": "nodemon --watch backend --exec tsx backend/server.ts",
+    "server": "tsx backend/server.ts",
     "dev": "concurrently \"npm run server\" \"npm run start\""
   },
   "dependencies": {
