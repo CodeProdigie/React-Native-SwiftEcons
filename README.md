@@ -1,6 +1,6 @@
 # SwiftEcons
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+<div style="display: flex; gap: 10px;">
   <img src="./screenshots/main.png" alt="Main Screen" width="250" />
   <img src="./screenshots/home.png" alt="Home Papers List" width="250" />
   <img src="./screenshots/papers.png" alt="PDF Viewer" width="250" />
