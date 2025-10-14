@@ -1,16 +1,11 @@
 # SwiftEcons
 
-### 🏠 Main Screen
-<img src="./screenshots/main.png" width="300" />
-
-### 📚 Home Papers List
-<img src="./screenshots/home.png" width="300" />
-
-### 📄 PDF Viewer
-<img src="./screenshots/papers.png" width="300" />
-
-### 🔐 Login / Registration
-<img src="./screenshots/login.png" width="300" />
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="./screenshots/main.png" alt="Main Screen" width="250" />
+  <img src="./screenshots/home.png" alt="Home Papers List" width="250" />
+  <img src="./screenshots/papers.png" alt="PDF Viewer" width="250" />
+  <img src="./screenshots/login.png" alt="Login / Registration" width="250" />
+</div>
 
 
 ## Overview
