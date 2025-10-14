@@ -6,7 +6,7 @@ import { Linking, Text, TouchableOpacity, View } from 'react-native';
 
 const Feedback = () => {
     const router = useRouter();
-    const phoneNumber = '674766654';
+    const phoneNumber = '237650660502';
 
     const handleWhatsAppPress = () => {
         const message = 'Hello SwiftEcons AL team! I would like to provide some feedback:';
