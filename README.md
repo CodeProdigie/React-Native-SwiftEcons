@@ -1,5 +1,18 @@
 # SwiftEcons
 
+### 🏠 Main Screen
+<img src="./screenshots/main.png" width="300" />
+
+### 📚 Home Papers List
+<img src="./screenshots/home.png" width="300" />
+
+### 📄 PDF Viewer
+<img src="./screenshots/papers.png" width="300" />
+
+### 🔐 Login / Registration
+<img src="./screenshots/login.png" width="300" />
+
+
 ## Overview
 
 SwiftEcons is a React Native application designed to provide economics past papers and study tools for students. It utilizes a Node.js backend with Express.js and MongoDB to manage user authentication and data.
@@ -13,12 +26,7 @@ SwiftEcons is a React Native application designed to provide economics past pape
 *   **Dark Mode:** User-friendly dark mode for comfortable viewing in low-light conditions.
 *   **Feedback & Support:** In-app feedback form and support resources.
 
-## Screenshots
 
-[**Placeholder for Screenshot 1: Main Screen**]
-[**Placeholder for Screenshot 2: Past Papers List**]
-[**Placeholder for Screenshot 3: PDF Viewer**]
-[**Placeholder for Screenshot 4: Login/Registration**]
 
 ## Technologies Used
 
