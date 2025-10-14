@@ -17,7 +17,7 @@ const YearCard: React.FC<YearCardProps> = ({ year, onPress }) => (
             <MaterialIcons name="picture-as-pdf" size={28} color="#fff" />
         </View>
         <View className="flex-1">
-            <Text className="text-lg font-bold text-[#0D47A1]">Econs {year}</Text>
+            <Text className="text-lg font-bold text-[#0D47A1]">Econs {year==725 ? "answers": year}</Text>
             <Text className="text-gray-500 text-sm">A/L Paper 1</Text>
         </View>
         <MaterialIcons name="chevron-right" size={28} color="#0D47A1" />

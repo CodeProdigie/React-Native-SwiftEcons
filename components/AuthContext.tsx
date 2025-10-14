@@ -28,8 +28,10 @@ interface AuthProviderProps {
 }
 
 // Replace with your computer's IP address
-const API_URL = "http://192.168.226.21:5000/api/auth";
-const SECRET_API_URL = "http://192.168.226.21:5000/api/secret";
+const API_URL = "https://swiftecons.onrender.com/api/auth";
+const SECRET_API_URL = "https://swiftecons.onrender.com/api/secret";
+// const API_URL = "http://192.168.226.21:5000/api/auth";
+// const SECRET_API_URL = "http://192.168.226.21:5000/api/secret";
 
 export const AuthProvider = ({ children }: AuthProviderProps) => {
   const [user, setUser] = useState<User | null>(null);
