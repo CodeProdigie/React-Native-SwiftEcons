@@ -5,6 +5,7 @@ export interface Paper {
 }
 
 export const paper1Years: Paper[] = [
+  { year: 725, pdf: require('../pdfs/Answers.pdf') },
   { year: 2025, pdf: require('../pdfs/JUNE2025.pdf') },
   { year: 2024, pdf: require('../pdfs/JUNE2024.pdf') },
   { year: 2023, pdf: require('../pdfs/JUNE2023.pdf') },

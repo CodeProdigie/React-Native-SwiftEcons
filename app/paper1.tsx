@@ -35,7 +35,7 @@ export default function Paper1Screen() {
   }, []);
 
   const handlePress = async (year: number) => {
-    if (isActivated || year === 2015) {
+    if (isActivated || year === 2015 || year===20016 || year===2017 || year===2018 || year===2019 || year===2020 || year===2021 || year===2022 || year===2023 || year===2024 || year===2025) {
       router.push({ pathname: "/year/[year]", params: { year: year.toString() } });
     } else {
       const user = await AsyncStorage.getItem("user");

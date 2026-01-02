@@ -254,7 +254,7 @@ export default function SecretsScreen() {
         </Text>
         <TouchableOpacity
           onPress={() => {
-            const phoneNumber = '650660502';
+            const phoneNumber = '237650660502';
             const message = 'Hello! I would like to purchase an activation key for SwiftEcons AL.';
             const url = `whatsapp://send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
             

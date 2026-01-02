@@ -23,7 +23,7 @@ export default function YearScreen() {
             </View>
             <View className="px-4 mt-4 flex-1">
                 <Text className={darkMode ? "text-white text-lg font-bold mb-2" : "text-[#0D47A1] text-lg font-bold mb-2"} style={{ fontFamily: 'Inconsolata' }}>{paper?.year === 725 ? "Econs P1 Answers": `Econs ${year} Paper 1`}</Text>
-                <Text className={darkMode ? "text-gray-300 mb-4" : "text-gray-600 mb-4"} style={{ fontFamily: 'Inconsolata' }}>Advanced Level Economics Paper 1 {paper?.year === 725 ? "from 2015-2025 all together": `for the year ${year}`}. Below are the questions and solutions in PDF format.</Text>
+                <Text className={darkMode ? "text-gray-300 mb-4" : "text-gray-600 mb-4"} style={{ fontFamily: 'Inconsolata' }}>Advanced Level Economics Paper 1 {paper?.year === 725 ? "from 2015-2025 all together": `for the year ${year}`}. Below are the {paper?.year === 725 ? "answers" : "questions"} in PDF format.</Text>
                 <View style={{ flex: 1 }}>
                     {paper && <PDFViewer pdfPath={paper.pdf} />}
                 </View>
