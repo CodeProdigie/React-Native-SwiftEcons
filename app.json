@@ -3,12 +3,13 @@
     "name": "SwiftEcons",
     "slug": "SwiftEcons",
     "owner": "masscoder",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/logo.png",
     "scheme": "swiftecons",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.brandon20.SwiftEcons",
@@ -26,7 +27,7 @@
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
       "package": "com.masscoder.SwiftEcons",
-      "versionCode": 2,
+      "versionCode": 8,
       "permissions": [
         "INTERNET",
         "SYSTEM_ALERT_WINDOW",
@@ -38,7 +39,10 @@
         "READ_MEDIA_IMAGES",
         "READ_MEDIA_VIDEO",
         "READ_MEDIA_AUDIO"
-      ]
+      ],
+      "config": {
+        "support16kPageSize": true
+      }
     },
     "web": {
       "output": "static",
