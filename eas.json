@@ -1,7 +1,7 @@
 {
   "cli": {
     "version": ">= 16.19.3",
-    "appVersionSource": "remote"
+    "appVersionSource": "local"
   },
   "build": {
     "development": {
@@ -19,7 +19,8 @@
     },
     "production": {
       "android": {
-        "buildType": "app-bundle"
+        "buildType": "app-bundle",
+        "gradleCommand": ":app:bundleRelease"
       },
       "env": {
         "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
